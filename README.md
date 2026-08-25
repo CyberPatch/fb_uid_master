@@ -33,10 +33,8 @@
 Tool works with `.txt` files in this format:
 
 ```
-100095722502702|Indra Maya Burja Magar
-100095741100518|Kismata Shahi ThaQuree
-61570007412605|Anmol Bista
-61570011243534|Birender Rokaya
+100xxxxxxx|name
+6155xxxxxx|name 
 ```
 
 ---
