@@ -32,8 +32,8 @@
 Your `.txt` file should look like this:
 
 ```
-100088888888|name
-615588888888|name
+100099999999|first last name
+615577777777|name name
 ```
 
 ---
@@ -114,5 +114,12 @@ For any help or queries, contact via WhatsApp:
 ---
 
 <p align="center">
-  Made with 😈 by <b>Anonymous</b> | 🇳🇵 Nepal
+  Made with 😈 by <a href="https://github.com/CyberPatch"><b>Anonymous 😈</b></a> | 🇳🇵 Nepal
 </p>
+
+<p align="center">
+  <a href="https://github.com/CyberPatch">
+    <img src="https://img.shields.io/badge/👤%20View%20Developer%20Profile-CyberPatch-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
+
