@@ -53,7 +53,6 @@ Tool works with `.txt` files in this format:
 ```bash
 git clone https://github.com/CyberPatch/fb_uid_master.git
 cd fb-uid-master-tool
-```
 
 ### Step 2 — Run the tool
 ```bash
