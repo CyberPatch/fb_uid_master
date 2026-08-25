@@ -51,7 +51,7 @@ Tool works with `.txt` files in this format:
 
 ### Step 1 — Clone the repo
 ```bash
-git clone https://github.com/yourusername/fb-uid-master-tool.git
+git clone https://github.com/CyberPatch/fb-uid-master-tool.git
 cd fb-uid-master-tool
 ```
 
