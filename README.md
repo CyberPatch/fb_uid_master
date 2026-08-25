@@ -1,40 +1,39 @@
-# fb_uid_master
-# FB UID MASTER TOOL 😈
+<h1 align="center">FB UID MASTER TOOL 😈</h1>
 
-```
-  ███████╗██████╗     ██╗   ██╗██╗██████╗
-  ██╔════╝██╔══██╗    ██║   ██║██║██╔══██╗
-  █████╗  ██████╔╝    ██║   ██║██║██║  ██║
-  ██╔══╝  ██╔══██╗    ██║   ██║██║██║  ██║
-  ██║     ██████╔╝    ╚██████╔╝██║██████╔╝
-  ╚═╝     ╚═════╝      ╚═════╝ ╚═╝╚═════╝
-       FB UID MASTER TOOL v1.0
-    Mix • Separate • Divide • Clean
-```
+<p align="center">
+  <img src="https://img.shields.io/badge/Owner-Anonymous%20😈-red?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Country-🇳🇵%20Nepal-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Python-3.x-yellow?style=for-the-badge&logo=python"/>
+  <img src="https://img.shields.io/badge/Platform-Termux-green?style=for-the-badge"/>
+</p>
 
-> **Owner : Anonymous 😈 | 🇳🇵 Nepal**
+<p align="center">
+  <b>Mix • Separate • Divide • Clean</b><br/>
+  A powerful FB UID file management tool for Termux
+</p>
 
 ---
 
-## 📌 Features
+## ✨ Features
 
-| # | Feature | Description |
-|---|---------|-------------|
+| Option | Feature | Description |
+|--------|---------|-------------|
 | 1 | 🔀 **Mix** | Randomly shuffle all UIDs in a file |
-| 2 | ✂️ **Separate** | Split 1000xxx and 615xxx series into different files |
-| 3 | 📂 **Divide** | Split file into equal parts (e.g. manish1.txt, manish2.txt) |
-| 4 | 🧹 **Remove Duplicates** | Remove duplicate UIDs (keeps first occurrence) |
-| 5 | 📞 **Contact Owner** | Get WhatsApp contact link |
+| 2 | ✂️ **Separate Series** | Split 1000xxx and 615xxx into different files |
+| 3 | 📂 **Divide File** | Split into equal parts (manish1.txt, manish2.txt...) |
+| 4 | 🧹 **Remove Duplicates** | Remove duplicate UIDs (UID based) |
+| 5 | 📞 **Contact Owner** | WhatsApp contact link |
+| 6 | 🚪 **Exit** | Exit the tool |
 
 ---
 
 ## 📁 File Format
 
-Tool works with `.txt` files in this format:
+Your `.txt` file should look like this:
 
 ```
-100xxxxxxx|name
-6155xxxxxx|name 
+100088888888|name
+615588888888|name
 ```
 
 ---
@@ -43,23 +42,34 @@ Tool works with `.txt` files in this format:
 
 - Python 3.x
 - Termux (Android) or any Linux terminal
-- No extra libraries needed
+- No extra libraries needed — runs out of the box!
 
 ---
 
-## 🚀 Installation & Usage
+## 🚀 How To Use
 
-### Step 1 — Clone the repo
+### Step 1 — Install Python in Termux
+```bash
+pkg update && pkg upgrade
+pkg install python
+```
+
+### Step 2 — Clone this repo
 ```bash
 git clone https://github.com/CyberPatch/fb_uid_master.git
-cd fb-uid-master-tool
+```
 
-### Step 2 — Run the tool
+### Step 3 — Go into the folder
+```bash
+cd fb_uid_master
+```
+
+### Step 4 — Run the tool
 ```bash
 python fb_uid_master.py
 ```
 
-### Step 3 — Choose an option
+### Step 5 — Choose an option
 ```
   1. 🔀  Mix File (Randomly Shuffle)
   2. ✂️   Separate Series (1000xxx / 615xxx)
@@ -67,28 +77,42 @@ python fb_uid_master.py
   4. 🧹  Remove Duplicates (UID based)
   5. 📞  Contact Owner
   6. 🚪  Exit
+
+Choose an option (1-6):
+```
+
+---
+
+## 🔄 Update Tool (When New Version Releases)
+
+```bash
+cd fb_uid_master
+git pull
 ```
 
 ---
 
 ## 📞 Contact Owner
 
-For any queries or help, contact via WhatsApp:
+For any help or queries, contact via WhatsApp:
 
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-Contact-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/9779762181892)
-
-> 🇳🇵 **Anonymous 😈 — Nepal**
-
----
-
-## ⚠️ Note
-
-- Original file is **never modified** in Divide mode
-- Duplicates are removed based on **UID only** (not name)
-- Wrong input will **never crash** the tool — it will ask again
+<p align="center">
+  <a href="https://wa.me/9779762181892">
+    <img src="https://img.shields.io/badge/WhatsApp-Contact%20Me-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
+  </a>
+</p>
 
 ---
 
-## 📜 License
+## ⚠️ Notes
 
-This tool is free to use. Credit the owner if you share it. 😈
+- ✅ Original file is **never modified** in Divide mode
+- ✅ Duplicates removed based on **UID only** (not name)
+- ✅ Wrong input will **never crash** the tool — it asks again
+- ✅ Colorful UI with ANSI colors — works great on Termux
+
+---
+
+<p align="center">
+  Made with 😈 by <b>Anonymous</b> | 🇳🇵 Nepal
+</p>
